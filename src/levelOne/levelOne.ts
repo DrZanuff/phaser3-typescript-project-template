@@ -8,6 +8,10 @@ export function generateLevelOne(phaser: PhaserScene) {
     fontSize: 30,
   })
 
+  phaser.add.text(300, 200, 'Arrows to Move, Space to Jump', {
+    fontSize: 16,
+  })
+
   const solid = phaser.physics.add.staticGroup()
 
   levelMapArray.forEach((element) => {

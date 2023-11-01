@@ -11,7 +11,6 @@ var canDoubleJump = true
 var spacebar: Phaser.Input.Keyboard.Key
 export default class Demo extends Phaser.Scene {
   constructor() {
-    var myVar = 0
     super('demo')
   }
 
